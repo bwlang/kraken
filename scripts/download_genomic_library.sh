@@ -56,7 +56,7 @@ case "$1" in
     if [ ! -e "lib.complete" ]
     then
       rm -f plasmids.all.fna.tar.gz
-      wget $FTP_SERVER/genomes/Plasmids/plasmids.all.fna.tar.gz
+      wget $FTP_SERVER/genomes/archive/old_refseq/Plasmids/plasmids.all.fna.tar.gz
       echo -n "Unpacking..."
       tar zxf plasmids.all.fna.tar.gz
       rm plasmids.all.fna.tar.gz
